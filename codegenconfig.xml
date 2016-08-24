@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="codegen.xsd">
+	<variables>
+		<variable name="developer" value="admin" />
+		<variable name="company" value="馨园信息" />
+	</variables>
+
+	<templates>
+		<template id="facade" path="facade.ftl" />
+		<template id="dto" path="dto.ftl" />
+		<template id="model" path="model.ftl" />
+		<template id="dao" path="dao.ftl" />
+		<template id="service" path="service.ftl" />
+		<template id="controller" path="controller.ftl" />
+		<template id="list" path="list.jsp" />
+		<template id="get" path="get.jsp" />
+		<template id="edit" path="edit.jsp" />
+		<template id="add" path="add.jsp" />
+		<template id="pageEdit" path="pageEdit.jsp" />
+		<template id="formValid" path="formValid.ftl" />
+		<template id="formproperties" path="formproperties.ftl" />
+		<template id="mapper" path="mapper.ftl" />
+		<template id="mobileForm" path="mobileform.ftl" />
+		<template id="mobileDetail" path="mobiledetail.ftl" />
+	</templates>
+
+	<files baseDir="E:\work\workspace\backend">
+
+ 		<file refTemplate="dto" filename="{class}Dto.java" dir="src\java\com\sunlight\{system}\{package}\dto" sub="true" override="true" /> 
+		<file refTemplate="model" filename="{class}.java" dir="src\java\com\sunlight\{system}\{package}\model" sub="true" override="true" />
+	 	<file refTemplate="list" filename="{classVar}List.jsp" dir="webroot\{system}\{package}\{classVar}" override="true" />
+  		<file refTemplate="service" filename="{class}Service.java" dir="src\java\com\sunlight\{system}\{package}\service" override="true" />
+		<file refTemplate="facade" filename="{class}Facade.java" dir="src\java\com\sunlight\{system}\{package}\facade" override="true" />
+		<file refTemplate="dao" filename="{class}Dao.java" dir="src\java\com\sunlight\{system}\{package}\dao" sub="true" override="true" />
+ 		<file refTemplate="controller" filename="{class}Controller.java" dir="src\java\com\sunlight\{system}\controller\{package}" override="true" />
+
+ 		<file refTemplate="get" filename="{classVar}View.jsp" dir="webroot\{system}\{package}\{classVar}" override="true" />
+		<file refTemplate="edit" filename="{classVar}Update.jsp" dir="webroot\{system}\{package}\{classVar}" override="true" /> 
+		<file refTemplate="add" filename="{classVar}Create.jsp" dir="webroot\{system}\{package}\{classVar}" override="true" /> 
+   
+	</files>
+	
+	<table tableName="FEE_BEFORE_RECEIVE"><variable name="class" value="FeeBeforeReceive" /><variable name="classVar" value="feeBeforeReceive" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+	<table tableName="FEE_USE_CASE_RECORD"><variable name="class" value="FeeUseCaseRecord" /><variable name="classVar" value="feeUseCaseRecord" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+	
+	<table tableName="FEE_PAYMENT_CASE"><variable name="class" value="FeePaymentCase" /><variable name="classVar" value="feePaymentCase" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+	<!-- 
+	<table tableName="FEE_STANDARD_SELECT"><variable name="class" value="FeeStandardSelect" /><variable name="classVar" value="feeStandardSelect" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+	<table tableName="FEE_METER_RECORD"><variable name="class" value="FeeMeterRecord" /><variable name="classVar" value="feeMeterRecord" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+	
+	
+ <table tableName="FEE_METER_STANDARD"><variable name="class" value="FeeMeterStandard" /><variable name="classVar" value="feeMeterStandard" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+  <table tableName="FEE_COMMON_STANDARD"><variable name="class" value="FeeCommonStandard" /><variable name="classVar" value="feeCommonStandard" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+  
+
+ <table tableName="FEE_CHARGE_ITEM"><variable name="class" value="FeeChargeItem" /><variable name="classVar" value="feeChargeItem" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+ <table tableName="FEE_COMMON_SET"><variable name="class" value="FeeCommonSet" /><variable name="classVar" value="feeCommonSet" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+ <table tableName="FEE_PROXY_DEDUCTION"><variable name="class" value="FeeProxyDeduction" /><variable name="classVar" value="feeProxyDeduction" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+ 
+
+<table tableName="BANK_INFO"><variable name="class" value="BankInfo" /><variable name="classVar" value="bankInfo" /><variable name="package" value="base" /><variable name="path" value="base" /></table>
+
+<table tableName="FEE_BEFORE_PAYMENT"><variable name="class" value="FeeBeforePayment" /><variable name="classVar" value="feeBeforePayment" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+
+<table tableName="FEE_BUSINESS_ACCEPT_ENTER"><variable name="class" value="FeeBusinessAcceptEnter" /><variable name="classVar" value="feeBusinessAcceptEnter" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+<table tableName="FEE_BUSINESS_ACCEPT_ITEM"><variable name="class" value="FeeBusinessAcceptItem" /><variable name="classVar" value="feeBusinessAcceptItem" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+<table tableName="FEE_CHARGE_ITEM"><variable name="class" value="FeeChargeItem" /><variable name="classVar" value="feeChargeItem" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+
+
+
+
+
+<table tableName="FEE_ONCE_ACCEPT_ENTER"><variable name="class" value="FeeOnceAcceptEnter" /><variable name="classVar" value="feeOnceAcceptEnter" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+<table tableName="FEE_PAYMENT_ITEM"><variable name="class" value="FeePaymentItem" /><variable name="classVar" value="feePaymentItem" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+<table tableName="FEE_PENALTY_SET"><variable name="class" value="FeePenaltySet" /><variable name="classVar" value="feePenaltySet" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+
+<table tableName="FEE_RECEIPT_SET"><variable name="class" value="FeeReceiptSet" /><variable name="classVar" value="feeReceiptSet" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+
+<table tableName="FEE_RECEIVABLE"><variable name="class" value="FeeReceivable" /><variable name="classVar" value="feeReceivable" /><variable name="package" value="fee" /><variable name="path" value="fee" /></table>
+ -->
+ 
+ 	 
+</config>

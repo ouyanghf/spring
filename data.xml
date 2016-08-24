@@ -1,0 +1,206 @@
+
+	<table tableName="COMMUNITY_DEPART">
+		<variable name="class" value="CommunityDepart" />
+		<variable name="classVar" value="communityDepart" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="COMMUNITY">
+		<variable name="class" value="Community" />
+		<variable name="classVar" value="community" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="COMMUNITY_BUILDING">
+		<variable name="class" value="CommunityBuilding" />
+		<variable name="classVar" value="communityBuilding" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="BUILDING_UNIT">
+		<variable name="class" value="BuildingUnit" />
+		<variable name="classVar" value="buildingUnit" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="COMMUNITY_LIFT">
+		<variable name="class" value="CommunityLift" />
+		<variable name="classVar" value="communityLift" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="HOUSE_PROPERTY">
+		<variable name="class" value="HouseProperty" />
+		<variable name="classVar" value="houseProperty" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="PROPERTY_DEVELOPMENT_COMPANY">
+		<variable name="class" value="PropertyDevelopmentCompany" />
+		<variable name="classVar" value="propertyDevelopmentCompany" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="COMPANY_STRUCTURE">
+		<variable name="class" value="CompanyStructure" />
+		<variable name="classVar" value="companyStructure" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="DEPARTMENT_POSITION">
+		<variable name="class" value="DepartmentPosition" />
+		<variable name="classVar" value="departmentPosition" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="COMMUNITY_CUSTOMER">
+		<variable name="class" value="CommunityCustomer" />
+		<variable name="classVar" value="communityCustomer" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="COMPANY_CUSTOMER_INFO">
+		<variable name="class" value="CompanyCustomerInfo" />
+		<variable name="classVar" value="companyCustomerInfo" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="CUSTOMER_MEMBER">
+		<variable name="class" value="CustomerMember" />
+		<variable name="classVar" value="customerMember" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="CUSTOMER_HOUSES">
+		<variable name="class" value="CustomerHouses" />
+		<variable name="classVar" value="customerHouses" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="CUSTOMER_CONTACT_RECORD">
+		<variable name="class" value="CustomerContactRecord" />
+		<variable name="classVar" value="customerContactRecord" />
+		<variable name="package" value="base" />
+		<variable name="path" value="base" />
+	</table>
+	<table tableName="FLOW_INSTANCE">
+		<variable name="class" value="FlowInstance" />
+		<variable name="classVar" value="flowInstance" />
+		<variable name="package" value="complain" />
+		<variable name="path" value="complain" />
+	</table>
+	<table tableName="CUSTOMER_COMPLAIN">
+		<variable name="class" value="CustomerComplain" />
+		<variable name="classVar" value="customerComplain" />
+		<variable name="package" value="complain" />
+		<variable name="path" value="complain" />
+	</table>
+	<table tableName="CUSTOMER_APPRAISE">
+		<variable name="class" value="CustomerAppraise" />
+		<variable name="classVar" value="customerAppraise" />
+		<variable name="package" value="complain" />
+		<variable name="path" value="complain" />
+	</table>
+	<table tableName="CANCEL_CUSTOMER_MATTER">
+		<variable name="class" value="CancelCustomerMatter" />
+		<variable name="classVar" value="cancelCustomerMatter" />
+		<variable name="package" value="complain" />
+		<variable name="path" value="complain" />
+	</table>
+	<table tableName="CALLIN_LOG">
+		<variable name="class" value="CallinLog" />
+		<variable name="classVar" value="callinLog" />
+		<variable name="package" value="complain" />
+		<variable name="path" value="complain" />
+	</table>
+	<table tableName="CUSTOMER_MATTER">
+		<variable name="class" value="CustomerMatter" />
+		<variable name="classVar" value="customerMatter" />
+		<variable name="package" value="complain" />
+		<variable name="path" value="complain" />
+	</table>
+
+	<table tableName="DICTIONARY_TYPE">
+		<variable name="class" value="DictionaryType" />
+		<variable name="classVar" value="dictionaryType" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="DICTIONARIES">
+		<variable name="class" value="Dictionaries" />
+		<variable name="classVar" value="dictionaries" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="EMPLOYEE">
+		<variable name="class" value="Employee" />
+		<variable name="classVar" value="employee" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="PROPERTY_MANAGEMENT_COMPANY">
+		<variable name="class" value="PropertyManagementCompany" />
+		<variable name="classVar" value="propertyManagementCompany" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="BG_USERS">
+		<variable name="class" value="Users" />
+		<variable name="classVar" value="users" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="USER_POSITION">
+		<variable name="class" value="UserPosition" />
+		<variable name="classVar" value="userPosition" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="SYSTEM_POSITION">
+		<variable name="class" value="SystemPosition" />
+		<variable name="classVar" value="systemPosition" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="POSITIONE_OPERATION">
+		<variable name="class" value="PositioneOperation" />
+		<variable name="classVar" value="positioneOperation" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="CUSTOMER_SYSTEM_MODULE">
+		<variable name="class" value="CustomerSystemModule" />
+		<variable name="classVar" value="customerSystemModule" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="SYSTEM_MODULE">
+		<variable name="class" value="SystemModule" />
+		<variable name="classVar" value="systemModule" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="MODULE_OPERATION">
+		<variable name="class" value="ModuleOperation" />
+		<variable name="classVar" value="moduleOperation" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="SMS_LOG">
+		<variable name="class" value="SmsLog" />
+		<variable name="classVar" value="smsLog" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="SYSTEM_FILE_RESOURCE">
+		<variable name="class" value="SystemFileResource" />
+		<variable name="classVar" value="systemFileResource" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
+	<table tableName="SYSTEM_TEMP_FILE">
+		<variable name="class" value="SystemTempFile" />
+		<variable name="classVar" value="systemTempFile" />
+		<variable name="package" value="system" />
+		<variable name="path" value="system" />
+	</table>
